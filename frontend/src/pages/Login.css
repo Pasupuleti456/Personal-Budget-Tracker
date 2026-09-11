@@ -1,0 +1,104 @@
+/* Centering the form - Budgetly Theme */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 70px);
+    background: #F7F7FB;
+    color: #171717;
+    padding: 24px;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.container h1 {
+    color: #171717;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+    letter-spacing: -0.02em;
+}
+
+/* Login form styling */
+.container form {
+    background: #FFFFFF;
+    padding: 36px;
+    border-radius: 20px;
+    border: 1px solid #E8E7F0;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.03);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+/* Input field styling */
+.container input {
+    width: 100%;
+    padding: 12px 16px;
+    margin: 8px 0 18px 0;
+    border: 1px solid #E8E7F0;
+    border-radius: 12px;
+    font-size: 15px;
+    color: #171717;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    font-family: inherit;
+    transition: all 0.2s ease;
+}
+
+.container input:focus {
+    outline: none;
+    border-color: #6D5CE7;
+    box-shadow: 0 0 0 3px rgba(109, 92, 231, 0.15);
+}
+
+/* Labels */
+.container label {
+    display: block;
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+    color: #171717;
+    margin-top: 4px;
+}
+
+/* Login / Signup Button */
+.container button {
+    background: #6D5CE7;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 10px;
+    font-family: inherit;
+}
+
+.container button:hover {
+    background: #5A4AD1;
+    transform: translateY(-1px);
+}
+
+/* Signup Link */
+.container span {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #6B7280;
+}
+
+.container span a {
+    color: #6D5CE7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.container span a:hover {
+    text-decoration: underline;
+}

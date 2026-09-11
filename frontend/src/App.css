@@ -1,0 +1,48 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #F7F7FB;
+    color: #171717;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Page Content */
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Forms */
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #171717;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 15px;
+    color: #171717;
+    background-color: #FFFFFF;
+    border: 1px solid #E8E7F0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: inherit;
+    transition: all 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #6D5CE7;
+    box-shadow: 0 0 0 3px rgba(109, 92, 231, 0.15);
+}

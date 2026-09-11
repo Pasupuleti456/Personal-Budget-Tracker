@@ -1,0 +1,43 @@
+.expense-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffe6f2; /* Light pink background */
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.expense-item button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.expense-details {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .expense-item {
+        flex-direction: row; /* Keep items in row for better spacing */
+    }
+
+    .expense-details {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .expense-item button {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+}

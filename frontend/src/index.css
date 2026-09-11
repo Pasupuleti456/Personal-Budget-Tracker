@@ -1,0 +1,76 @@
+/* Global Styles - Budgetly Theme */
+:root {
+  --primary: #6D5CE7;
+  --primary-hover: #5A4AD1;
+  --light-purple: #EEEAFE;
+  --bg-main: #F7F7FB;
+  --card-bg: #FFFFFF;
+  --text-main: #171717;
+  --text-secondary: #6B7280;
+  --income: #22A06B;
+  --expense: #E85D75;
+  --savings: #7C5CDE;
+  --border: #E8E7F0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Button Styling */
+button, .btn {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: var(--primary);
+  color: #FFFFFF;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover, .btn:hover {
+  background: var(--primary-hover);
+  transform: translateY(-1px);
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 32px 24px;
+  background: #FFFFFF;
+  border-top: 1px solid var(--border);
+  color: var(--text-secondary);
+  margin-top: 60px;
+  font-size: 14px;
+}
+
+footer a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

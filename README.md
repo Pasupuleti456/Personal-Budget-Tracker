@@ -1,110 +1,90 @@
-#  Personal Budget Tracker
+# 💰 Personal Budget Tracker
 
-Personal Budget Blox is a full-stack MERN application that helps users efficiently manage their personal finances. It allows users to track income and expenses, manage transactions, monitor their current balance, and organize their financial records through an easy-to-use interface.
+A full-stack **MERN application** designed to help users manage their personal finances easily. The application allows users to securely register and log in, track income and expenses, manage transactions, monitor their balance, and set monthly budget limits through a simple and responsive dashboard.
 
---
+## 🌐 Live Demo
 
-## 🚀 Features
+🔗 **Frontend:**  
+https://personal-budget-tracker-beju.vercel.app/
 
-- 🔐 Secure User Registration & Login
-- 🛡️ JWT Authentication
-- ➕ Add Income and Expense Transactions
-- ✏️ Edit Existing Transactions
-- ❌ Delete Transactions
-- 📊 Dashboard with Current Balance
-- 💵 Total Income Summary
-- 💸 Total Expense Summary
-- 📅 Store Transaction Date and Description
-- 🔍 Search Transactions
-- 📂 Filter Transactions by Category
-- 📈 Monthly Budget Limit
-- 📉 Remaining Budget Display
-- 📊 Budget Progress Bar
-- 📱 Responsive User Interface
+🔗 **Backend:**  
+https://personal-budget-tracker-1-2iea.onrender.com
+---
+
+## ✨ Features
+
+### 🔐 Authentication
+
+- Secure user registration and login
+- JWT-based authentication
+- Protected user-specific data
+
+### 💰 Transaction Management
+
+- Add income transactions
+- Add expense transactions
+- Edit existing transactions
+- Delete transactions
+- Store transaction date and description
+- Categorize transactions
+
+### 📊 Dashboard
+
+- View current balance
+- View total income
+- View total expenses
+- Monitor financial activity
+
+### 🔎 Search & Filtering
+
+- Search transactions
+- Filter transactions by category
+- Easily find specific financial records
+
+### 📅 Budget Management
+
+- Set a monthly budget limit
+- View remaining budget
+- Track budget usage
+- Visual budget progress bar
+
+### 📱 Responsive Interface
+
+- Clean and user-friendly interface
+- Responsive design
+- Simple navigation
+- Easy-to-use financial dashboard
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - React.js
 - Bootstrap
 - Axios
 
 ### Backend
+
 - Node.js
 - Express.js
-- JWT Authentication
+- JWT
 
 ### Database
+
 - MongoDB Atlas
 - Mongoose
 
----
+### Deployment
 
-##  Project Structure
-
-```
-Personal-Budget-Blox
-│
-├── backend
-│   ├── Controllers
-│   ├── Middlewares
-│   ├── Models
-│   ├── Routes
-│   ├── index.js
-│   └── package.json
-│
-├── frontend
-│   ├── public
-│   ├── src
-│   ├── package.json
-│   └── index.html
-│
-└── README.md
-```
+- Vercel – Frontend
+- Render – Backend
+- MongoDB Atlas – Database
 
 ---
+## 📸 Application Preview
 
-## ⚙️ Installation
+### 🏠 Home Page
 
-### Clone the Repository
-
-```bash
-git clone https://github.com/Pasupuleti456/Personal-Budget-Blox.git
-```
-
-### Backend Setup
-
-```bash
-cd backend
-npm install
-npm start
-```
-
-### Frontend Setup
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
----
-
-## 🔮 Future Enhancements
-
-- 📄 Export Transactions as PDF
-- 📊 Advanced Analytics Dashboard
-- 🔔 Budget Notifications
-- 📅 Monthly Reports
-
----
-
-## 👩‍💻 Author
-
-**Pasupuleti Mounika**
-
-GitHub: https://github.com/Pasupuleti456
-
-
+![Personal Budget Tracker Home Page](screenshots/home.png)

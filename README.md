@@ -4,6 +4,7 @@ A full-stack **MERN application** designed to help users manage their personal f
 
 ## 🌐 Live Demo
 
+
 🔗 **Frontend:**  
 https://personal-budget-tracker-beju.vercel.app/
 
@@ -63,7 +64,6 @@ https://personal-budget-tracker-1-2iea.onrender.com
 
 - React.js
 - Bootstrap
-- Axios
 
 ### Backend
 
@@ -87,4 +87,4 @@ https://personal-budget-tracker-1-2iea.onrender.com
 
 ### 🏠 Home Page
 
-![Personal Budget Tracker Home Page](screenshots/home.png)
+![Personal Budget Tracker Home Page](home.png)

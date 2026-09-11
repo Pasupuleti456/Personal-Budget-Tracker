@@ -21,6 +21,7 @@ app.use(cors({
     credentials: true
 }));
 
+app.get('/', (req, res) => res.json({ message: "Personal Budget Tracker API is running successfully!", status: "OK" }));
 app.get('/ping', (req, res) => res.send('PONG'));
 
 console.log("Loading authentication routes...");
